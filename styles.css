@@ -1,0 +1,68 @@
+.input-fields{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+
+.sub--input-field{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.sub--input-field label{
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: large;
+}
+
+
+
+table{
+    width: 100%;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+tbody{
+    border: solid 1px grey;
+}
+
+.table-top-row{
+    color: white;
+    font-weight: 700;
+
+
+
+
+}
+
+.table-top-row tr th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-right: solid 1px white;
+    /* text-align: center; */
+}
+.addBorder{
+    padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+        border-right: solid 1px black;
+        border-bottom: solid 1px black;
+
+}
+
+tfoot tr td{
+    border: 1px solid grey;
+}
+
+#heading{
+    font-weight: 700;
+}
